@@ -1,6 +1,6 @@
 # HTML Fundamentals
 
-## 1.0 What is HTML ?\*\*
+## 1.0 What is HTML ?
 
 - **HTML :** **H**yper **T**ext **M**arkup **L**anguage
 - A markup language used to describe content & structure of a Webpage
@@ -61,7 +61,7 @@
   - `<i>"Content Here"</i> `
   - `<em>"Content Here"</em>`
 
-## 3.0 Text Elements
+## 3.0 More Text Elements
 
 - **Lists**
 
@@ -110,7 +110,7 @@
   - This '#' does not take us to any other _link_
   - It is used to Navigate to the _'Top' / 'Start'_ of the Page
 
-## 6.0 Semantic HTML & Tags :
+## 6.0 HTML5 Semantic Tags :
 
 Used To Structure our Page with Meaningful Semantic tags Provide Meaning to out Content
 
@@ -135,10 +135,10 @@ Used To Structure our Page with Meaningful Semantic tags Provide Meaning to out 
 - **_Auto Rename Tag_**
 - **_Live Server_**
 
-## 8.0 Challenge :
+## 8.0 Challenge 1 :
 
 - _Create Aside Bar of Related Posts On blog.html Using Semantic tag_ `<aside> </aside>`
 
-## 9. Challenge :
+## 9. Challenge 2 :
 
 - _Create Converse Shoe Sale Project_
