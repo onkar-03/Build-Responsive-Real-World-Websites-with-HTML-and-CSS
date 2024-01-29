@@ -868,7 +868,7 @@ This is the Selector priority order ( Highest ➡️ Lowest ) :1.
 
 **_NOTE :_** - _When two rules have the same selector, the one that comes later in the stylesheet takes precedence_
 
-## 11.0 Inheritance and Universal Selector :
+## 11.0 Inheritance & Universal Selector :
 
 ### What is Inheritance ??
 
@@ -1328,7 +1328,7 @@ Feel free to use this Markdown code as needed. If you have any more requests or 
 
 Build **_Converse Project_** using CSS which should look like this : [Converse Project](https://codepen.io/jonasschmedtmann/pen/oNBJQOr/bc1ffc43d2c2d6dfb311d99f974ec991)
 
-## 8. Types Of Boxes :
+## 18. Types Of Boxes / Elements :
 
 ### Block-Elements :
 
