@@ -40,7 +40,7 @@ During the analysis of the HTML file, several new HTML elements were identified.
 
 #### `<span>` Element:
 
-- The `<span>` element is an inline container that is used to apply styles to specific portions of text or content. It does not inherently change the structure or layout but can be styled using CSS to add emphasis or apply specific formatting.
+- The `<span>` element is an _inline container_ that is used to apply styles to specific portions of text or content. It does not inherently change the structure or layout but can be styled using CSS to add emphasis or apply specific formatting.
 
   **Example:**
 
@@ -65,7 +65,10 @@ During the analysis of the HTML file, several new HTML elements were identified.
 ### Web Design VS Web Developers
 
 - **Web Designers:** They create the _overall look and feel_ of the website.
+
 - **Web Developers:** They implement the design using HTML, CSS & JavaScript Code.
+
+_The Goal of this section is to build a good designer as well as developer of websites_
 
 ### Why Take Design Seriously?
 
@@ -102,7 +105,7 @@ Good web design is not **subjective/creative**. Anyone can learn basics by follo
 - _Images / Illustrations_
 - _Icons_
 - _Shadows_
-- _border-radius_
+- _Border-radius_
 - _Whitespace_
 - _Visual Hierarchy_
 - _User Experience_
@@ -139,3 +142,5 @@ _Design Decisions for each are based on website personality._
 - **Playful/Fun :**
 
   Colorful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language.
+
+_But the Idea is that Different Design decisions depend upon what website personality we want for our design._
