@@ -144,3 +144,238 @@ _Design Decisions for each are based on website personality._
   Colorful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language.
 
 _But the Idea is that Different Design decisions depend upon what website personality we want for our design._
+
+## Website Design Rules #1 Typography :
+
+Lets start with the most Important Design Ingredient of all "Typography"
+
+This Section might have the most number of Rules among all of the Rules.
+
+### What is Typography ??
+
+"Typography is the art & technique of arranging type to make written language **legible** , **readable** & **appealing** when displayed."
+
+OR
+
+"Typography is all about making the text **beautiful** & **easy to read**"
+
+### Serif VS Sans-Serif
+
+When it comes to typography, the choice between serif and sans-serif fonts plays a crucial role in defining the visual tone and readability of text. Here's a breakdown of the key differences between serif and sans-serif fonts:
+
+### Serif Fonts:
+
+**Description:**
+
+- Serif fonts have small lines or decorative features at the ends of their characters, known as serifs.
+- Serifs can be bracketed, unbracketed, or slab-like, influencing the font's overall appearance.
+
+**Characteristics:**
+
+- Traditional and classic appearance.
+- Enhance readability in printed material.
+- Commonly used for body text in books and newspapers.
+- Good for Long Text
+- Conveys Trustworthiness
+
+**Examples:**
+
+- Times New Roman
+- Georgia
+- Garamond
+
+### Sans-serif Fonts:
+
+**Description:**
+
+- Sans-serif fonts, as the name suggests, lack the serifs or decorative strokes at the ends of characters.
+- They have a cleaner and more modern appearance.
+
+**Characteristics:**
+
+- Modern look & feel
+- Contemporary and clean design.
+- Simple
+- Well-suited for digital screens and modern interfaces.
+- Often used for headlines, logos, and web content.
+- - Easy to choose for beginner Designers
+
+**Examples:**
+
+- Arial
+- Helvetica
+- Calibri
+
+**Serif VS Sans-Serif :**
+
+![Serif VS Sans-Serif](/img/Serif%20vs%20Sans-Serif.png)
+
+### Choosing Between Serif and Sans-serif:
+
+**Readability:**
+
+- Serif fonts are considered more readable in printed material due to the guiding effect of serifs along the text flow.
+- Sans-serif fonts are often preferred for digital screens, where resolution and pixel clarity can make them more readable.
+
+**Aesthetic and Style:**
+
+- Serif fonts convey a sense of tradition, formality, and timelessness.
+- Sans-serif fonts exude a modern, clean, and minimalistic aesthetic.
+
+**Usage Scenarios:**
+
+- Serif fonts are suitable for traditional and formal contexts, such as books, academic papers, and long-form content.
+- Sans-serif fonts are commonly used in digital media, websites, user interfaces, and contemporary design.
+
+**Combination:**
+
+- Designers often use a combination of serif and sans-serif fonts for visual contrast, such as using a serif font for body text and a sans-serif font for headers.
+
+In summary, the choice between serif and sans-serif fonts depends on the context, medium, and desired visual impact. Each type brings its own set of characteristics, influencing the overall design and communication of textual content.
+
+#### Rule 1 use Good TypeFaces :
+
+1. **Use Good TypeFaces** :
+
+- Use only good & popular typefaces and play it safe.
+
+**Sans-Serif :**
+
+- _Inter_
+- _Open Sans_
+- _Roboto_
+- _Montserrat_
+- _Work Sans_
+- _Lato_
+
+**Serif :**
+
+- Merriwweather
+- Aleo
+- Playfair Display
+- Cormorant
+- Cardo
+- Lora
+
+_All these fonts are Free of cost and can be found on Google Fonts / Font Quirrel_
+
+Many Designers think that using multiple typefaces are necessary to design a webpage but thats not actually true.
+
+- It's okay to use just one typeface per page! If you want more , limit to 2 typefaces.
+
+- Choose the **right typeface** according to your website personality:
+
+👉 Choose the right personality for your website.
+👉 Decide between a serif and sans-serif typeface
+👉 Experiment with all the "good" typefaces to see which one best fits your websites message
+👉 You can keep trying different typefaces as you design and build the page
+
+2. **Use Good Font Sizes & Weight** :
+
+- when choosing fonts-sizes, **limit choices**! Use a "**type scale**" tool or other **pre-defined range**
+
+- Use a font size between 16px to 32px for **normal text**.
+
+- For **long text**, try a size of 20px or bigger
+
+- For **headlines**, you can goreally big (50px+) and bold (600+), **depending on personality**
+
+- For any text, don't use a font weight under 400(regular)
+
+3. **Create a Good Reading Experience** :
+
+- Use less than 75 characters in per line
+
+- For normal-text, use a line height
+  between 1.5 and 2. For big-text go below 1.5
+  👉 The **smaller** / **longer** the text, the **larger** the line height need to be!
+
+- Decrease letter spacing in headlines, if it looks unnatural
+
+- Experiment with all caps for short titles. Make them small and bold and increase letter-spacing.
+
+- Usually don't justify text (As a general practice, text is not _aligned_ or _formatted_ using justification)
+
+- Don't center text blocks. small blocks are fine.
+
+## Implementing Typography :
+
+Implementing the Typography Guidelines in out Project [Project](/index.html)
+
+**Import Inter Font in Our Code** :
+
+- Trying to give it a **clean** & **modern** look.
+- Using Sans-serif Type face
+- Common one for architectural pages : _Inter_
+- Choosing Base Weight 400 , Bold (700) , Medium (500) , Semi-Bold(600)
+- Copy the `<link>` given by google font
+- Paste it in the `<head>`
+
+[Google Fonts](https://fonts.google.com/?query=Rasmus+Andersson&stroke=Sans+Serif)
+
+Assign Font :
+
+```css
+body {
+  font-family: 'Inter', sans-serif;
+}
+```
+
+## Explanation:
+
+- `_Inter_` at first means the default font-family is Inter.
+- If the font family _Inter_ is unable to load from Google Fonts, then the second default sans-serif will be loaded.
+
+## Decide the h1 Heading Size & Style:
+
+- We can use the [Type-Scale Tool](https://typescale.com/).
+- We can also use the standard decided by us, say something like this:
+
+  ```css
+  /* FONT SIZE SYSTEM (px) */
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  ```
+
+## H1 Heading:
+
+- Choose between 44px / 52px / 62px.
+- Decrease the letter spacing to make it look more realistic (-1px).
+- Decrease the line height, as larger the text, smaller the line height, say (1.1).
+
+### Adjust the Header Font:
+
+- By default, the font size is 16px. Let's increase it to 18; it looked good.
+- Adjust Line Height; for smaller texts, use a larger line height.
+  - 1.5 / 1.6 both look fine.
+
+## H2 Heading:
+
+- Size smaller than the h1, i.e., 44px. Say 36px.
+- Decrease the letter-spacing of the heading, say -0.5px.
+
+## Title and Text of Features Block:
+
+### Title:
+
+- Selecting a size smaller than the h2 for title, say 20px.
+
+### Text:
+
+- Select a font size, say 18px, smaller than the title.
+- Give the content some reading space by adding the same line height as before of -1.6px.
+- Keep the line height consistent throughout the page generally.
+
+## Heading & Text of Testimonial Box:
+
+- Assigning a font size to it smaller than the h2, say 24px.
+- Set up the same size and line height of 18px and -1.6px, as other text to the text of the testimonial box.
+
+## Heading 3 and Price Text:
+
+- Size of h3 smaller than h2, say 24px.
+- Increase the size of the char-price as it's a very important element in Product Selection, to say 20px.
+
+## Footer Section:
+
+- Font of the Footer is generally very small.
+- As the default size is 16px, let's bring it down to say 14px / below.
