@@ -145,7 +145,7 @@ _Design Decisions for each are based on website personality._
 
 _But the Idea is that Different Design decisions depend upon what website personality we want for our design._
 
-## Website Design Rules #1 Typography :
+## 03.0 Web Design Rules #1 Typography :
 
 Lets start with the most Important Design Ingredient of all "Typography"
 
@@ -233,9 +233,7 @@ When it comes to typography, the choice between serif and sans-serif fonts plays
 
 In summary, the choice between serif and sans-serif fonts depends on the context, medium, and desired visual impact. Each type brings its own set of characteristics, influencing the overall design and communication of textual content.
 
-#### Rule 1 use Good TypeFaces :
-
-1. **Use Good TypeFaces** :
+#### Typography Rule 1 : Use Good TypeFaces
 
 - Use only good & popular typefaces and play it safe.
 
@@ -270,7 +268,7 @@ Many Designers think that using multiple typefaces are necessary to design a web
 👉 Experiment with all the "good" typefaces to see which one best fits your websites message
 👉 You can keep trying different typefaces as you design and build the page
 
-2. **Use Good Font Sizes & Weight** :
+#### Typography Rule 2 : Use Good Font Sizes & Weight
 
 - when choosing fonts-sizes, **limit choices**! Use a "**type scale**" tool or other **pre-defined range**
 
@@ -278,11 +276,11 @@ Many Designers think that using multiple typefaces are necessary to design a web
 
 - For **long text**, try a size of 20px or bigger
 
-- For **headlines**, you can goreally big (50px+) and bold (600+), **depending on personality**
+- For **headlines**, you can generally big (50px+) and bold (600+), **depending on personality**
 
 - For any text, don't use a font weight under 400(regular)
 
-3. **Create a Good Reading Experience** :
+#### Typography Rule 3 : Create a Good Reading Experience
 
 - Use less than 75 characters in per line
 
@@ -298,7 +296,7 @@ Many Designers think that using multiple typefaces are necessary to design a web
 
 - Don't center text blocks. small blocks are fine.
 
-## Implementing Typography :
+## 04.0 Implementing Typography :
 
 Implementing the Typography Guidelines in out Project [Project](/index.html)
 
