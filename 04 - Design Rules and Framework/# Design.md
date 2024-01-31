@@ -233,7 +233,7 @@ When it comes to typography, the choice between serif and sans-serif fonts plays
 
 In summary, the choice between serif and sans-serif fonts depends on the context, medium, and desired visual impact. Each type brings its own set of characteristics, influencing the overall design and communication of textual content.
 
-#### Typography Rule 1 : Use Good TypeFaces
+#### Rule 1 : Use Good TypeFaces
 
 - Use only good & popular typefaces and play it safe.
 
@@ -268,7 +268,7 @@ Many Designers think that using multiple typefaces are necessary to design a web
 👉 Experiment with all the "good" typefaces to see which one best fits your websites message
 👉 You can keep trying different typefaces as you design and build the page
 
-#### Typography Rule 2 : Use Good Font Sizes & Weight
+#### Rule 2 : Use Good Font Sizes & Weight
 
 - when choosing fonts-sizes, **limit choices**! Use a "**type scale**" tool or other **pre-defined range**
 
@@ -280,7 +280,7 @@ Many Designers think that using multiple typefaces are necessary to design a web
 
 - For any text, don't use a font weight under 400(regular)
 
-#### Typography Rule 3 : Create a Good Reading Experience
+#### Rule 3 : Create a Good Reading Experience
 
 - Use less than 75 characters in per line
 
@@ -300,7 +300,7 @@ Many Designers think that using multiple typefaces are necessary to design a web
 
 Implementing the Typography Guidelines in out Project [Project](/index.html)
 
-**Import Inter Font in Our Code** :
+### Import Inter Font in Our Code :
 
 - Trying to give it a **clean** & **modern** look.
 - Using Sans-serif Type face
@@ -319,12 +319,12 @@ body {
 }
 ```
 
-## Explanation:
+#### Explanation:
 
 - `_Inter_` at first means the default font-family is Inter.
 - If the font family _Inter_ is unable to load from Google Fonts, then the second default sans-serif will be loaded.
 
-## Decide the h1 Heading Size & Style:
+### Decide the h1 Heading Size & Style:
 
 - We can use the [Type-Scale Tool](https://typescale.com/).
 - We can also use the standard decided by us, say something like this:
@@ -334,46 +334,190 @@ body {
   10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
   ```
 
-## H1 Heading:
+### H1 Heading:
 
 - Choose between 44px / 52px / 62px.
 - Decrease the letter spacing to make it look more realistic (-1px).
 - Decrease the line height, as larger the text, smaller the line height, say (1.1).
 
-### Adjust the Header Font:
+### Adjust the header-text Font Size :
 
 - By default, the font size is 16px. Let's increase it to 18; it looked good.
 - Adjust Line Height; for smaller texts, use a larger line height.
   - 1.5 / 1.6 both look fine.
 
-## H2 Heading:
+### H2 Heading:
 
 - Size smaller than the h1, i.e., 44px. Say 36px.
 - Decrease the letter-spacing of the heading, say -0.5px.
 
-## Title and Text of Features Block:
+### Title and Text of Features Block:
 
-### Title:
+#### Title:
 
 - Selecting a size smaller than the h2 for title, say 20px.
 
-### Text:
+#### Text:
 
 - Select a font size, say 18px, smaller than the title.
 - Give the content some reading space by adding the same line height as before of -1.6px.
 - Keep the line height consistent throughout the page generally.
 
-## Heading & Text of Testimonial Box:
+### Heading & Text of Testimonial Box:
 
 - Assigning a font size to it smaller than the h2, say 24px.
 - Set up the same size and line height of 18px and -1.6px, as other text to the text of the testimonial box.
 
-## Heading 3 and Price Text:
+### H3 Heading& Price text :
 
 - Size of h3 smaller than h2, say 24px.
 - Increase the size of the char-price as it's a very important element in Product Selection, to say 20px.
 
-## Footer Section:
+### Footer Section:
 
 - Font of the Footer is generally very small.
 - As the default size is 16px, let's bring it down to say 14px / below.
+
+## 05.0 Web Design Rules #2 Colors :
+
+### Rule 1 : Choose the Right Color :
+
+#### 1. Make the main color match your website's personality: colors convey meaning !
+
+- 🔴 Red draws a lot of attention, and symbolizes power, passion, and excitement
+- 🟠 Orange is less aggressive, and conveys happiness, cheerfulness, and creativity
+- 🟡 Yellow means joy, brightness, and intelligence
+- 🟢 Greens represents harmony, nature, growth, and health
+- 🔵 Blue is associated with peace, trustworthiness, and professionalism
+- 🟣 Purple conveys wealth, wisdom, and magic
+- ⭕ Pink represents romance, care, and affection
+- 🟤 Brown is associated with nature, durability and comfort
+
+#### 2. Use a **_good color tone_**! Don't choose a random tone or CSS named colors.
+
+Don't just go into a **_VS Code Color picker_** and use a random color from there / use one of the **_CSS named colors_**.
+
+We have multiple **_Tools_** we can use for that ... they are basically list of good shades carefully designed to build beautiful interfaces :
+
+**Tools Used :**
+
+- [_Open Colors_](https://yeun.github.io/open-color/)
+- [_Tailwind CSS_](https://tailwindcss.com/)
+- [_Flat UI Colors 2_](https://flatuicolors.com/)
+
+#### 3. You need at least two types of colors in your **_color palette_** : **_main color_** & **_grey color_**
+
+##### _Main Colors_ :
+
+- In the context of colors, the term "main color" could refer to primary colors. Primary colors are fundamental colors that cannot be created by mixing other colors together. The primary colors in the traditional color wheel are red, blue, and yellow. All other colors can be created by combining these primary colors.
+
+##### _Grey Color_ :
+
+- Grey is a neutral color that is created by mixing black and white. It is often considered achromatic, meaning it has no hue. Grey can have various shades, ranging from light grey to dark grey, depending on the ratio of black and white used in the mixture.
+
+- Grey color doesn't mean it will be a true grey color, grey color can be a darker version of another color too
+
+#### 4. With more experience, you can add more colors: accent (secondary) colors (use a tool)
+
+##### Accent or Secondary Colors:
+
+- In the context of color schemes, accent or secondary colors are those used to complement the primary colors. These colors add variety and depth to a design. Unlike primary colors, secondary colors are created by mixing primary colors.
+
+- Common secondary colors include green (mix of blue and yellow), orange (mix of red and yellow), and purple (mix of red and blue).
+
+- Using accent colors strategically can enhance visual appeal and create a balanced and harmonious design.
+
+  **Tools Used :**
+
+  [Coolors](https://coolors.co/)
+
+#### 5. For diversity, create lighter and darker "versions" (**_tints and shades_**)
+
+##### Tints and Shades:
+
+In the realm of colors, tints and shades refer to variations in the lightness or darkness of a color.
+
+- **Tints:** Tints are lighter versions of a color and are created by adding white to the base color. The more white added, the lighter the tint becomes. Tints often create a softer and pastel-like appearance.
+
+- **Shades:** Shades, on the other hand, are darker versions of a color and are achieved by adding black to the base color. The more black added, the darker the shade becomes. Shades can add depth and richness to a color palette.
+
+Understanding how to create _tints_ & _shades_ is essential in color theory and design, providing a range of tones to work with in creating visually appealing compositions.
+
+_Shades are important for Secondary(Grey) colors as we use different shades of secondary colors for texts at different places & different states on the webpage_
+
+- If we use Tailwind CSS then the _Tints_ & _Shades_ come along with the color
+
+- If we create a color ourselves then we can create Tints & Shades using :
+
+  [Tint & Shade Generator](https://maketintsandshades.com/)
+
+### Rule 2 : When & How to use Colors ??
+
+- #### 1. Use your **_main color_** to **_draw attention_** to the most important elements on the page
+
+  Eg : the color of Button etc... colors represent the main color of the page
+
+- #### 2. Use colors to add **_interesting accents_** or make **_entire components_** or sections stand out
+
+- #### 3. You can try to use your color strategically in **_images and illustrations_**
+
+### ✅ Colors & Topography Relationship !!
+
+- #### 1. On dark colored backgrounds, **_try to use a tint of the background_** ("lighter version") for text
+
+- #### 2. Text should usually not be completely black. **_Lighten it up_** it looks heavy and uninviting
+
+- #### 3. Don't make text too light! Use a tool to check contrast between text and background colors
+
+  👉 Contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text (18px+)
+
+  **Tool Used :**
+
+  [Coolors](https://coolors.co/)
+
+## 06.0 Implementing Colors :
+
+Implementing the Colors Guidelines in out Project [Project](/index.html)
+
+### Choosing a Base Color for our Webpage :
+
+The Page contains a lot of elements that are green in color :
+
+- The Chair
+- Couch etc...
+
+Also the page focuses a lot on environment & Health, so choosing green is optimal.
+
+- **Remember :** 🟢 Greens represents harmony, nature, growth, and health.
+
+  **_So let's go with Green color_**
+  We will use an above mentioned tool ➡️ [_Open Colors_](https://yeun.github.io/open-color/)
+
+👉 Green : **_#087f5b_**
+
+### Choosing a Grey color :
+
+👉 Grey : **#343a40**
+
+### Styling '_shop chair_' Button State (:link & :visited) :
+
+- As we know the Button of the page mainly contains the **_Main Color_** of the page
+
+  - **background-color** : #087f5b
+  - **color** : White
+  - **text-decoration** : None
+  - **text-transform** : uppercase;
+  - **padding** : 16px & 32px (Button-Sizing)
+  - **font-weight** : 500
+
+### Styling '_shop chair_' Button State (:hover & :active) :
+
+On _hovering_ we want the color to be a bit lighter hence choosing the tint of the same main color from open color
+
+- color : #099268
+- applying it for the :_hover_ and :_active_ states
+- Keeping the Rest of the Properties same as it was for :_link_ & :_visited_
+
+### Contrast Check :
+
+Now we as a Rule / Process check the contrast between
