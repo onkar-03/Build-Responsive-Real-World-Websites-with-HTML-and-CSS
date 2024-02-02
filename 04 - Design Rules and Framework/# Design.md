@@ -524,7 +524,7 @@ On _hovering_ we want the color to be a bit lighter hence choosing the tint of t
 
 ## 07.0 Web Design Rules #3 Images & Illustrations:
 
-### Rule 1: USE GOOD IMAGES
+### Rule 1: Use Good Images
 
 1. Different types of images: product photos, storytelling photos, illustrations, patterns.
 
@@ -539,7 +539,7 @@ For good, original-looking images, you can refer to these pages:
 - [Drawkit](https://www.drawkit.com/)
 - [unDraw](https://unsplash.com/)
 
-### Rule 2: USE IMAGES WELL
+### Rule 2: Use Images Well
 
 1. Try to show real people to trigger user's emotions.
 
@@ -566,3 +566,50 @@ For good, original-looking images, you can refer to these pages:
 2. Compress images for a lower file size and better performance.
 
    - _Tool used to compress images nicely :_ [Squoosh](https://squoosh.app/)
+
+## 08.0 Web Design Rules #4 Icons :
+
+### Rule 1 : Use Good Icons
+
+1. Use a good icon pack, there are tons of free and paid icons packs
+
+**_Free Icon Packs_** :
+
+- [Phorphoricons](https://phosphoricons.com/)
+- [ionicons](https://ionic.io/ionicons)
+- [iocon8](https://icons8.com/)
+
+2. Use only one icon pack. Don't mix icons from different icon packs
+
+3. Use SVG icons or icon fonts. Don't use bitmap image formats (.jpg and .png)!
+
+![Regular Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjpsVvzkGzJt4Vm6PHsS04vPL4Qpl_iUPkx7zllqJBgHuhnmWpRNgS1Ob7G_Q4ekJZpZE&usqp=CAU)
+
+- Regular Images
+
+  - "Regular images": JPG, PNG, GIF
+  - Do not scale become **unsharp** !
+
+- Vector Images
+  - SVG images are icons fonts
+  - Scale **indefinitely**
+
+4. Adjust to website personality! Roundness, weight and filled/outlined depend on typography
+
+### Rule 2 : When to Use Icons
+
+1. Use icons to **provide visual assistance** to text
+
+2. Use icons for **product feature blocks**
+
+3. Use icons **associated with actions,** and **label them** (unless no space or icon is 100% clear)
+
+4. Use icons **as bullet points**
+
+### Rule 3 : Use Icons Well
+
+1. To keep icons neutral, **use same color** as text. To draw more attention, **use different color**
+
+2. Don't confuse your users: icons need to make sense and f**it the text or action!**
+
+3. Don't make icons larger than what they **were designed for**. If needed, **enclose them in a shape**
