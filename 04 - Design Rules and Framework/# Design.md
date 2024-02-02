@@ -520,4 +520,49 @@ On _hovering_ we want the color to be a bit lighter hence choosing the tint of t
 
 ### Contrast Check :
 
-Now we as a Rule / Process check the contrast between
+- Now we as a Rule / Process do check the contrast between them.
+
+## 07.0 Web Design Rules #3 Images & Illustrations:
+
+### Rule 1: USE GOOD IMAGES
+
+1. Different types of images: product photos, storytelling photos, illustrations, patterns.
+
+2. Use images to support your website's message and story, so only use relevant images!
+
+3. Prefer original images. If not possible, use original-looking stock images (not generic ones!)
+
+For good, original-looking images, you can refer to these pages:
+
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/)
+- [Drawkit](https://www.drawkit.com/)
+- [unDraw](https://unsplash.com/)
+
+### Rule 2: USE IMAGES WELL
+
+1. Try to show real people to trigger user's emotions.
+
+2. If necessary, crop images to fit your message.
+
+3. Experiment combining photos, illustrations, and patterns.
+
+### Rule 3: Handling Text on Images
+
+1. Darken or brighten images (completely or partially, using a gradient).
+
+2. Position text into neutral image areas.
+
+3. Put Text In a Box.
+
+### Rule 4: Some Technical Details
+
+1. To account for high-res screens, make image dimensions 2x as big as their displayed size.
+
+   - **Scale Factor**:
+     Actual pixels the screen contains / Pixels represented on the screen.
+   - On high-resolution screens, the scale factor is 2x or even 3x; on "normal" screens, it's just 1x (1 physical pixel = 1 design pixel).
+
+2. Compress images for a lower file size and better performance.
+
+   - _Tool used to compress images nicely :_ [Squoosh](https://squoosh.app/)
