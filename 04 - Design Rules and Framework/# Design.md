@@ -617,7 +617,7 @@ For good, original-looking images, you can refer to these pages:
 
 ## 09.0 Implementing Icons :
 
-### Icons to Use !!
+### Which Icons to Use !!
 
 Using Icons Pack from : [Heroicons](https://heroicons.com/)
 
@@ -661,3 +661,10 @@ _The most common use case of Icons is to create Feature Blocks !!_
 - stroke : #087f5b
 
 _Using stroke property to outline the icons with green matching the overall theme , color and structure of the page_
+
+### Adding Visual Assistance to Text using Icons in best selling chair section
+
+- Adding suitable Icons to list Items according to their text
+- class named as : chair-icon
+- Height & width : 24px
+- stroke : #087f5b
