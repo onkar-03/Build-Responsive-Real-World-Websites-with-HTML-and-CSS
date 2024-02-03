@@ -120,6 +120,10 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #099268;
+  height: 32px;
+  width: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {

@@ -578,6 +578,7 @@ For good, original-looking images, you can refer to these pages:
 - [Phorphoricons](https://phosphoricons.com/)
 - [ionicons](https://ionic.io/ionicons)
 - [iocon8](https://icons8.com/)
+- [Heroicons](https://heroicons.com/)
 
 2. Use only one icon pack. Don't mix icons from different icon packs
 
@@ -610,6 +611,53 @@ For good, original-looking images, you can refer to these pages:
 
 1. To keep icons neutral, **use same color** as text. To draw more attention, **use different color**
 
-2. Don't confuse your users: icons need to make sense and f**it the text or action!**
+2. Don't confuse your users: icons need to make sense and **fit the text or action!**
 
 3. Don't make icons larger than what they **were designed for**. If needed, **enclose them in a shape**
+
+## 09.0 Implementing Icons :
+
+### Icons to Use !!
+
+Using Icons Pack from : [Heroicons](https://heroicons.com/)
+
+Heroicons has SVG Icons Pack!!
+
+Our website is having mostly _square_ images, containers, buttons etc..
+
+The Icons on Heroicons are _round_ mostly ... although they are not the best fit fot the page but for now we are using them as they are easy to use
+
+### How to add Icons to HTML File ??
+
+1. Download the SVG File and then incorporate them in to the **_HTML Code_** just like regular **_Images_**.
+
+Although this has a couple of limitations !!
+
+2. Easy way is to copy the **_SVG Icons Code_** and use them directly.
+   we need to paste the SVG Code before / after the heading / content wherever we want it to be
+
+### How to Resize SVG Icons ??
+
+1. Add a class to it as u wish to
+
+2. style the height and width of the icon using CSS
+
+### How to color Icons as our wish ??
+
+- Outline Icons :
+
+  - Using the _stroke_ property we can assign the colors to the icon outline
+
+- Solid Icons :
+  - Using the _fill_ property we can assign the colors to the icon outline
+
+### Adding Icons to create Features Block in Feature Section (Outline Icons)
+
+_The most common use case of Icons is to create Feature Blocks !!_
+
+- Adding suitable Icons to list Items according to their text
+- class named : features-icon
+- height & width : 32px
+- stroke : #087f5b
+
+_Using stroke property to outline the icons with green matching the overall theme , color and structure of the page_
