@@ -668,3 +668,39 @@ _Using stroke property to outline the icons with green matching the overall them
 - class named as : chair-icon
 - Height & width : 24px
 - stroke : #087f5b
+
+## 10.0 Web Design Rules #5 Shadows :
+
+### Some Concepts First !!
+
+👉 After an era of 100% flat design, we're now **back to using shadows** in IJI design ("flat design 2.0")
+
+👉 **Shadow creates depth (3D)**: the more shadow, the **further away from the interface** the element is
+
+👉 Shadow can be used on **boxes** & **text**
+
+### Use Shadows Well !!
+
+1. You **don't have to use** shadows! Only use them if it makes sense for the **website personality**
+
+   - Serious Design : Less / No Shadow
+   - Playful / Fun Design : More Shadows
+
+2. Use shadows **in small doses**: don't add shadows to every element!
+
+3. Go light on shadows, don't make them **too dark**!
+
+### Use Shadows in the Right Situation !!
+
+1. Use **small shadows** for smaller elements that should stand out (to draw attention)
+   Eg : Buttons, Images etc...
+
+2. Use **medium-sized shadows** for larger areas that should stand out a bit more
+   Eg : Page Sections, Product Cards on Website etc..
+
+3. Use **large shadows** for elements that should really float above the interface
+   Eg : navigation window, Popup window
+
+4. Experiment with **changing shadows** on mouse interaction (click and hover)
+
+👉 **_Bonus: Experiment with glows (colored shadows)_**
