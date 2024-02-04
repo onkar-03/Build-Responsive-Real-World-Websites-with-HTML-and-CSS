@@ -704,3 +704,60 @@ _Using stroke property to outline the icons with green matching the overall them
 4. Experiment with **changing shadows** on mouse interaction (click and hover)
 
 👉 **_Bonus: Experiment with glows (colored shadows)_**
+
+## 11.0 Implementing Shadows
+
+_Adding shadow effect to Product cards containing different types of chairs!!_
+
+### How to Add Shadow to Elements using box-shadow ??
+
+**Box shadow** is a CSS (Cascading Style Sheets) property that allows you to add a shadow effect to an element. It is often used to give a visual depth and dimension to elements on a webpage.
+
+The `box-shadow` property takes several values to define the shadow's appearance. Here is the basic syntax:
+
+```css
+box-shadow: h-offset v-offset blur spread color inset;
+```
+
+- `h-offset`: The horizontal offset of the shadow. Positive values move the shadow to the right, and negative values move it to the left.
+
+- `v-offset`: The vertical offset of the shadow. Positive values move the shadow down, and negative values move it up.
+
+- `blur`: The blur radius. A higher value creates a more blurred shadow.
+
+- `spread`: The spread radius. This value can be positive or negative, and it determines whether the shadow expands or contracts.
+
+- `color`: The color of the shadow.
+
+- `inset`: An optional keyword. If present, the shadow will be inside the element, making it an inset shadow.
+
+### Adding Shadows to **chair** class having the cards within it !!
+
+- class : **chair**;
+- h-offset : 0px;
+- v-offset : 20px;
+- blur : 30px;
+- spread : 0;
+- color : black; (opacity as per convenience)
+
+Eg : box-shadow : 0 20px 30px 0 rgba(0, 0, 0, 0.7);
+
+### How to add Shadows to Text using text-shadow ??
+
+**Text shadow** is a CSS property used to add a shadow effect to text. The `text-shadow` property takes the following values:
+
+Here we dont have the _spread_ option as in box-shadow.
+
+```css
+text-shadow: h-offset v-offset blur color;
+```
+
+- `h-offset`: The horizontal offset of the shadow. Positive values move the shadow to the right, and negative values move it to the left.
+
+- `v-offset`: The vertical offset of the shadow. Positive values move the shadow down, and negative values move it up.
+
+- `blur`: The blur radius. A higher value creates a more blurred shadow.
+
+- `color`: The color of the shadow.
+
+**Note** : _Although we are not adding shadows to text but we should know how can we o that if required_
