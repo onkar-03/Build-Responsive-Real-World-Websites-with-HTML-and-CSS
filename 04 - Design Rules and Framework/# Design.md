@@ -860,3 +860,37 @@ We can do this this looks good, But there are other ways to make the button look
   border-radius: 100px;
 }
 ```
+
+## 14.0 Web Design Rules #7 White Spaces :
+
+### Why WhiteSpace ??
+
+1. The right amount of whitespace makes designs look **clean**, **modern** and **polished**
+
+2. Whitespace communicates how different pieces of information are **related to one another**
+
+3. Whitespace implies **invisible relationships between the elements** of a layout
+
+### Where to Use Whitespace ??
+
+1. Use tons of whitespace **between sections**
+
+2. Use a lot of whitespace **between groups of elements** but less than the whitespace between **different sections **
+
+3. Use whitespace **between elements**
+
+4. Inside groups of elements, try to
+   use whitespace instead of lines
+
+### How much Whitespace to Use ??
+
+1. **Law of Proximity** :
+   The more some elements (or groups of elements) **belong together, the closer they should be**!
+
+2. Start with **a lot Of whitespace**, maybe even too much! **Then remove whitespace** from there
+
+   👆 _TOO much whitespace looks detached, too little looks too crammed_
+
+3. Match **other design choices**. If you have big text or big icons, you need more whitespace
+
+4. Try a hard rule, such as using **multiples of 16px** for all spacing
