@@ -761,3 +761,20 @@ text-shadow: h-offset v-offset blur color;
 - `color`: The color of the shadow.
 
 **Note** : _Although we are not adding shadows to text but we should know how can we o that if required_
+
+## 12.0 Web Design Rules #6 Border-radius :
+
+### Use Border Radius Well !!
+
+1. Use border-radius to **increase the playfulness** and fun of the design, to make it **less serious**
+
+2. Typefaces have a certain roundness: make sure that border-radius **matches that roundness**!
+
+   _The Typeface we choose will have certain roundness so choose the border radius matching the typefaces_
+
+   **Typefaces** :
+   Typefaces, often referred to as fonts, are sets of characters that share a consistent design. They include letters, numbers, punctuation marks, and other symbols
+
+3. Use border-radius on **buttons**, **images**, **around icons**, **standout sections** and **other elements**
+
+## 13.0 Implementing Shadows
