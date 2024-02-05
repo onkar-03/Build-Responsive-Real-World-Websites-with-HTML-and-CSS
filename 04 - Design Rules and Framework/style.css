@@ -75,6 +75,8 @@ h2 {
   font-size: 18px !important;
   padding: 16px 32px !important;
   /* Here !important added because the selector specificity of the pseudo classes are higher than the normal element selector  */
+
+  border-radius: 100px;
 }
 
 .btn--small {
@@ -83,6 +85,9 @@ h2 {
   /* Here !important added because the selector specificity of the pseudo classes are higher than the normal element selector  */
 }
 
+img {
+  border-radius: 12px;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -143,6 +148,7 @@ img {
   background-color: #087f5b;
   color: #ffffff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -165,9 +171,15 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
 }
 .chair-box {
   padding: 24px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 h3 {

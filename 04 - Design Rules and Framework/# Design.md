@@ -778,3 +778,85 @@ text-shadow: h-offset v-offset blur color;
 3. Use border-radius on **buttons**, **images**, **around icons**, **standout sections** and **other elements**
 
 ## 13.0 Implementing Shadows
+
+### How to add border-radius ??
+
+The border-radius property in CSS is used to define rounded corners for an element's border box.
+
+It allows you to control the curvature of the corners by specifying one to four values, each representing the radius of a quarter of the element's box.
+
+Example :
+
+```css
+img {
+  border-radius: 12px;
+}
+```
+
+### Adding border-radius to Images !!
+
+- border-radius : 12px;
+
+```css
+img {
+  border-radius: 12px;
+}
+```
+
+### Adding border-radius to testimonial-section !!
+
+_Adding the same border-radius as the images that it contains_
+
+- border-radius : 12px;
+
+```css
+.testimonial-section {
+  border-radius: 12px;
+}
+```
+
+### Adding border-radius to chair section containing Product Cards !!
+
+- border-radius : 12px;
+
+```css
+.chair {
+  border-radius: 12px;
+}
+```
+
+### Removing border-radius from the bottom left & right of product card images !!
+
+- border-bottom-left-radius: 0px;
+- border-bottom-right-radius: 0px;
+
+```css
+.chair img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+```
+
+### Adding border-radius to Shop Chair button !!
+
+- border-radius : 12px;
+
+We can do this this looks good, But there are other ways to make the button look really good with border radius !!
+
+1. When Element is **Square** :
+
+- border-radius : 50%;
+
+**_As the Element is not really square here we can use the second method !!_**
+
+2. When Element isn't **Square** :
+
+**_Assign a border radius bigger than the height of the element thats it it can any large number but must be bigger than the height of the element_**
+
+- border-radius : 100px;
+
+```css
+.btn--big {
+  border-radius: 100px;
+}
+```
