@@ -1007,7 +1007,7 @@ h1 {
   }
   ```
 
-  2._Decreasing the Margin-bottom between the various features of the Product in the Product Card_
+2. _Decreasing the Margin-bottom between the various features of the Product in the Product Card_
 
 - margin-bottom: 16px;
 
@@ -1026,3 +1026,79 @@ h1 {
   margin-bottom: 48px;
 }
 ```
+
+## 17.0 Web Design Rules #9 User Experience (UX)
+
+### What is User Experience (UX) ??
+
+**_Design is not just what it looks like And feels like. Design is How it works_**
+
+**- Steve Jobs**
+
+➡️ **What does "_Looks Like & Feel Like_" mean ??**
+
+- **User Interface (UI)** : It is the visual presentation of a product. It's how the graphical interface looks and feels like
+  - 👉 Layout
+  - 👉 Personality
+  - 👉 Typography
+
+➡️ **What does "_Feels Like_" mean ??**
+
+- **User Experience (UX)** is the overall experience the user has while interacting with the product
+
+  - 👉 Does the app feel logical and well thought out?
+  - 👉 Does the navigation work intuitively?
+  - 👉 Are users reaching their goals?
+
+### UI & UX Design !!
+
+**UI** :
+
+- UI is graphical interface
+- UI Design is what makes an interface beautiful
+
+**UX** :
+
+- UX is experience with interface
+- UX Design is what makes an interface useful and functional
+
+👆 **_UX Design can not exist without Ul Design!_**
+
+### UX Design Guiding Principles : GOALS
+
+- A website or application **exists for a reason**: a **user** has a goal for **visiting it**, and a business has a goal for **creating it**
+
+**UX Example** :
+
+- _Highlighting an option in the product pricing table_ :
+
+  👉 Helps the user decide faster what is the best option
+
+  👉 Helps the business maximize revenue
+
+### UX Rules for Usability !!
+
+1. Don't design complicated layouts. Don't reinvent the wheel. **Use patterns that users know**
+
+2. Make your call-to-action the **most prominent element**, and make the **text descriptive**
+   Eg : **_Buttons_**, also make the purpose of the button clear by writing the descriptive text about the function of the button
+
+3. Use **blue text** and **underlined text** only for links!
+
+4. Animations should have a **purpose** and be **fast**: between 200 and 500 ms
+
+5. In forms, align labels and fields in a **single vertical line**, to make the form **easier to scan**
+
+6. Offer users **good feedback** for all actions: form errors, form success, etc. [web apps]
+
+7. Place action buttons where they will **create an effect** (law of locality) [web apps]
+
+### UX Rules for Website Content !!
+
+1. Use a **descriptive**,**keyword-focused headline** on your main page. Don't be vague or fancy!
+
+2. Only include **relevant information**, efficiently! **Cut out fluff** and make the content 100% clear
+
+3. Use **simple words**! Avoid technical jargon and "smart-sounding" words
+
+4. Break up long text with **sub-headings**, **images**, **block quotes**, **bullet points**, etc.
