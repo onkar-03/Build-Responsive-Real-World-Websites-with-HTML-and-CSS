@@ -894,3 +894,43 @@ We can do this this looks good, But there are other ways to make the button look
 3. Match **other design choices**. If you have big text or big icons, you need more whitespace
 
 4. Try a hard rule, such as using **multiples of 16px** for all spacing
+
+## 15.0 Web Design Rules #8 Visual Hierarchy :
+
+### What is Visual Hierarchy ??
+
+👉 Visual hierarchy is about **establishing which elements** of a design **are the most important ones**
+
+👉 Visual hierarchy is about **drawing attention** to these most important elements
+
+👉 Visual hierarchy is about **defining a "path" for users**, to **guide** them through the page
+
+👉 We use a combination Of **position**, **size**,**colors**, **spacing**, **borders**, and **shadows** to establish a meaningful visual hierarchy between elements/components
+
+### Visual Hierarchy Fundamentals !!
+
+1. Position important elements **closer to the top the page**, where they get more attention
+
+Eg : Logo, Navigation Tab, Heading, Call to Action Button
+
+_In General Attention flows from Top ➡️ Bottom_
+
+2. Use images mindfully, as they draw **a lot Of attention** (_larger images get more attention_)
+
+3. Whitespace creates separation, so **use whitespace strategically** to emphasize elements
+
+### Visual Hierarchy for Text Elements !!
+
+1. For text elements, use **font size**, **font weight**, **color**, and **whitespace** to convey importance
+
+2. What text elements to emphasize? **Titles**, **sub-titles**, **links**, **buttons**, **data points**, **icons**
+
+   👆 You can also **de-emphasize** less important text, like **labels** or **secondary/additional information**
+
+### Visual Hierarchy between Components !!
+
+1. Emphasize an important component using **background color**, **shadow**, or **border** (or multiple)
+
+2. Try emphasizing some component A over component B by **de-emphasizing component B**
+
+3. What components to emphasize? **Testimonials**, **call-to-action sections**, **highlight sections**,**preview cards**, **forms**, **pricing tables important rows/columns in tables**, etc.
