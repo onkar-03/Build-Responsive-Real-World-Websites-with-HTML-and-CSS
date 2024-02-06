@@ -934,3 +934,95 @@ _In General Attention flows from Top ➡️ Bottom_
 2. Try emphasizing some component A over component B by **de-emphasizing component B**
 
 3. What components to emphasize? **Testimonials**, **call-to-action sections**, **highlight sections**,**preview cards**, **forms**, **pricing tables important rows/columns in tables**, etc.
+
+## 16.0 Implementing Whitespace and Visual Hierarchy
+
+**_We se margins between components to add Whitespace_**
+
+_It is a good Idea to use a fixed system for whitespace like this_
+
+SPACING SYSTEM (px) :
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+### Adding Tons of Whitespace after Heading & different sections of the Page !!
+
+- margin-bottom: 96px;
+
+```css
+header,
+section {
+  margin-bottom: 96px;
+}
+```
+
+### Adding whitespace at the Top of the Header Section !!
+
+- margin-bottom: 64px;
+
+```css
+header {
+  margin-top: 64px;
+}
+```
+
+### Adding Whitespace after the main heading (h1)!!
+
+- margin-bottom: 32px;
+
+```css
+h1 {
+  margin-bottom: 32px;
+}
+```
+
+### Adding more Whitespace between the features icon and title !!
+
+- margin-bottom: 24px;
+
+```css
+.features-icon {
+  margin-bottom: 24px;
+}
+```
+
+### Adding Visual Hierarchy to Text of the Testimonial Section !!
+
+1. _Adding Lightest Teal to the Text fio the Testimonial Section_
+
+   - color: ##e6fcf5
+
+2. _Choosing a contrasting and ***different shade of teal*** to have a subtle difference between the **text** and the **author name**_
+
+   - color: #c3fae8
+
+### Adding Visual Hierarchy to Product Cards !!
+
+1. _Increasing Padding of the Product details_
+
+- padding: 32px;
+
+  ```css
+  .chair-box {
+    padding: 32px;
+  }
+  ```
+
+  2._Decreasing the Margin-bottom between the various features of the Product in the Product Card_
+
+- margin-bottom: 16px;
+
+  ```css
+  .chair-details li {
+    margin-bottom: 16px;
+  }
+  ```
+
+3. _Increasing whitespace between the li Items and the **price** and **Add to Cart** Button_
+
+- margin-bottom: 48px;
+
+```css
+.chair-details {
+  margin-bottom: 48px;
+}
+```
