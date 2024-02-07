@@ -1,6 +1,6 @@
 # Learning about Components
 
-## From Elements to Webpage !!
+## 01.0 From Elements to Webpage !!
 
 ### 1. Elements :
 
@@ -109,3 +109,69 @@
 6. Sidebar
 7. Multi-column/magazine
 8. Asymmetry/Experimental
+
+## 02.0 Building an Accordion Component Part 1!!
+
+### What is `flex-direction: column`; ??
+
+When using Flexbox in CSS, you can control the layout of your elements using various properties. Let's explore the `flex-direction`, `align-items`, `justify-content`, and the main and cross axes.
+
+#### `flex-direction`
+
+The `flex-direction` property defines the direction in which the flex container's main axis and cross axis are placed. By default, it is set to `row`. If you want a column layout, you would set it to `column`.
+
+**_This makes the "main axis" run vertically and the "cross axis" run horizontally._**
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+#### `align-items`
+
+The `align-items` property controls how items are aligned on the cross axis. When using `flex-direction: column`, it aligns items horizontally. Common values are `flex-start`, `flex-end`, `center`, `stretch`, etc.
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center horizontally */
+}
+```
+
+#### `justify-content` with `flex-direction: column`
+
+The `justify-content` property controls how items are aligned on the main axis. When `flex-direction` is set to `column`, it affects the vertical alignment of items within the flex container.Common values are `flex-start`, `flex-end`, `center`, `space-between`, `space-around`.
+
+Example:
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically along the main axis */
+}
+```
+
+#### Main Axis and Cross Axis
+
+When `flex-direction` is set to `column`, the main axis runs vertically, and the cross axis runs horizontally. This is opposite when `flex-direction` is set to `row`.
+
+- **Main Axis:** The primary axis along which flex items are placed. For `flex-direction: column`, it's vertical.
+- **Cross Axis:** The perpendicular axis to the main axis. For `flex-direction: column`, it's horizontal.
+
+```css
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center horizontally */
+  justify-content: space-between; /* Space between items vertically */
+}
+```
+
+In summary:
+
+- **Main Axis (column):** Top to bottom.
+- **Cross Axis (column):** Left to right.
