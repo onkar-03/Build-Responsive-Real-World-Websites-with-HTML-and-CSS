@@ -1147,7 +1147,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - A creative and experimental layout is quite common
 
-#### 2. Minimalist / Simple
+#### 2. Minimalist / Simple :
 
 - Overview :
 
@@ -1171,7 +1171,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - Simple layout, a narrow one-column layout is quite common
 
-#### 3. Plain / Neutral
+#### 3. Plain / Neutral :
 
 - Overview :
   - Design that gets out of the way by using very neutral and
@@ -1194,7 +1194,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - Structured and condensed layout, with lots of boxes and rows
 
-#### 4. Bold / Confident
+#### 4. Bold / Confident :
 
 - Overview :
   - Design that makes an impact, by featuring big and bold typography, paired with confident use of big colored blocks
@@ -1215,7 +1215,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - All kinds of layouts, no particular tendencies
 
-#### 5. Calm / Peaceful
+#### 5. Calm / Peaceful ;
 
 - Overview :
   - For products and services that care about the consumer, which is transmitted by calming pastel colors and soft serif headings
@@ -1236,7 +1236,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - All kinds of layouts, no particular tendencies
 
-#### 6. Startup / Upbeat
+#### 6. Startup / Upbeat :
 
 - Overview :
   - Widely used in startups, featuring medium-sized sans-serif typefaces, light-grey backgrounds, and rounded elements
@@ -1257,7 +1257,7 @@ Because once we have a personality selected our design options for each of the D
 - Layout :
   - Rows of cards and Z-patterns are usual, as well as animations
 
-#### 7. Playful / Fun
+#### 7. Playful / Fun :
 
 - Overview :
   - Colorful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language
