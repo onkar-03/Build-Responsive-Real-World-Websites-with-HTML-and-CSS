@@ -290,6 +290,7 @@ Using **_CSS Grid_** to align Items in the Accordion as per our requirement ....
   ```
 
 Final O/P : [Accordion](./01-accordion.html)
+<<<<<<< HEAD
 
 ## 04.0 Building an Table Component Part 1!!
 
@@ -438,3 +439,5 @@ These elements are particularly useful when working with large tables or when im
 
 _Tables are a versatile tool for structuring and presenting data
 in HTML_
+=======
+>>>>>>> 904ec249c49c17601bc57a3c4e0448f79db8abbb
