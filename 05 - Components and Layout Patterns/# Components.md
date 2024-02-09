@@ -290,7 +290,6 @@ Using **_CSS Grid_** to align Items in the Accordion as per our requirement ....
   ```
 
 Final O/P : [Accordion](./01-accordion.html)
-<<<<<<< HEAD
 
 ## 04.0 Building an Table Component Part 1!!
 
@@ -439,5 +438,74 @@ These elements are particularly useful when working with large tables or when im
 
 _Tables are a versatile tool for structuring and presenting data
 in HTML_
-=======
->>>>>>> 904ec249c49c17601bc57a3c4e0448f79db8abbb
+
+## 05. Building Table Component Part 2 !!
+
+### Table Component Styling Updates :
+
+#### Body Styling
+
+The overall styling for the entire page has been enhanced. The body now uses the 'Inter' font family for a modern and clean look. Text color has been set to a subtle grey (#343a40), providing improved readability. The line height is set to 1, ensuring consistent spacing between lines. The content is centered using Flexbox with the `justify-content: center` property.
+
+```css
+body {
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+```
+
+#### Table Styling
+
+The table component has undergone several updates to improve its appearance and functionality.
+
+- The table width has been set to 800px, and it now maintains a margin of 100px from the top for better alignment within the page.
+
+```css
+table {
+  width: 800px;
+  margin-top: 100px;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+```
+
+- Padding for table cells (`th` and `td`) has been adjusted to provide more spacious and aesthetically pleasing cell dimensions. Text alignment is set to the left.
+
+```css
+th,
+td {
+  padding: 16px 24px;
+  text-align: left;
+}
+```
+
+#### Header Styling
+
+Table header (`thead th`) now features improved styling for better visibility. The text color is set to white, and the background color is a distinct green shade (#087f5b). The header cells have a width of 25% each.
+
+```css
+thead th {
+  color: white;
+  background-color: #087f5b;
+  width: 25%;
+}
+```
+
+#### Alternating Row Colors
+
+Alternate rows in the table body have been updated for better differentiation. Odd rows now have a light grey background (#f8f9fa), while even rows have a slightly different shade (#e9ecef).
+
+These styling enhancements aim to provide a more cohesive and visually appealing presentation for the table component, contributing to an improved user experience.
+
+```css
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+```
