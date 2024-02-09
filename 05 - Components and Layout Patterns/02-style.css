@@ -21,4 +21,35 @@ body {
   /* Added the Grey color to Texts */
   color: #343a40;
   line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  margin-top: 100px;
+  /* border: 1px solid #343a40; */
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
+}
+
+thead th {
+  color: white;
+  background-color: #087f5b;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e9ecef;
 }
