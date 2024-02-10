@@ -509,3 +509,62 @@ tbody tr:nth-child(odd) {
   background-color: #e9ecef;
 }
 ```
+
+## 06.0 Building Carousel Component Part 1!!
+
+### Carousel Component Documentation
+
+#### HTML Changes (index.html)
+
+1. Head Section
+
+   - Added meta tags for character set and viewport settings.
+   - Included title tag for the document.
+   - Imported the 'Inter' font with different weights (400, 500, 600, 700).
+   - Linked the external CSS file (03-style.css).
+
+2. Body Section
+
+   - Created a div with the class 'carousel' to contain the carousel component.
+   - Added an image, blockquote for testimonial text, and buttons for navigation.
+
+#### CSS Changes (03-style.css)
+
+1. Spacing System and Font Size System
+
+   - Defined a spacing system (px) and font size system (px) for consistent layout and typography.
+
+2. General Styles
+
+   - Applied a global reset to remove default margin, padding, and set box-sizing to border-box for all elements.
+   - Set the font family to 'Inter', a sans-serif font.
+   - Changed the text color to a grey shade (#343a40) for better readability.
+   - Set the line height of the body to 1.
+
+3. Carousel Styles
+
+   - Set a fixed width of 800px for the carousel container.
+   - Centered the carousel using the margin trick (auto on left and right margins).
+   - Added a background color (#087f5b), border-radius, and padding for styling.
+   - Adjusted the padding-left for better alignment.
+   - Used flex properties for the carousel container, aligning items and setting the gap between them.
+
+4. Image Styles
+
+   - Set a fixed height of 200px for the images.
+   - Added border-radius for a rounded corner effect.
+   - Applied a scale transformation to slightly enlarge the images.
+
+5. Testimonial Text Styles
+
+   - Set the font size to 18px, font weight to 500, and line height to 1.5 for the testimonial text.
+   - Adjusted the margin-bottom for spacing.
+   - Changed the text color to a lighter shade (#e6f6f5).
+
+6. Testimonial Author and Job Styles
+
+- Set font sizes and colors for testimonial author and job information.
+
+### Conclusion
+
+These changes enhance the styling, structure, and readability of the carousel component, making it visually appealing and consistent.
