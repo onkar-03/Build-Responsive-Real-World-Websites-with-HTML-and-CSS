@@ -30,11 +30,24 @@ body {
 }
 
 header {
-  background-color: orange;
-
   /* Give Header the Height completely of the Viewport like this :  */
   /* using vh : view-port height */
   height: 100vh;
+
+  /* Relative Position for header-container child class */
+  position: relative;
+
+  /* To have a background Image we use the background-image property */
+
+  /* Linear Gradient : To darken teh Image */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/hero.jpg);
+
+  /* To specify the size of the background image in a container */
+  background-size: cover;
+
+  color: #fff;
 }
 
 nav {
@@ -42,12 +55,34 @@ nav {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  background-color: green;
+  padding-top: 32px;
+}
+
+.header-container {
+  width: 1200px;
+
+  /* Position them absolute */
+  position: absolute;
+
+  /* The 50% are in relation to the width and height of the parent element */
+  left: 50%;
+  top: 50%;
+
+  /* using transform: translate(); to move the element actually to the middle */
+  transform: translate(-50%, -50%);
+
+  /* ** This centering process added responsive centering as even if the size of the browser window changes the elements are centered always */
+}
+
+/* Used this to align the text at the Left of the Image as the Center Image face is at the right */
+.header-container-inner {
+  width: 50%;
 }
 
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
@@ -60,7 +95,7 @@ p {
 .btn:visited {
   font-size: 20px;
   font-weight: 600;
-  background-color: #e67e22;
+  background-color: orange;
   color: white;
   text-decoration: none;
   display: inline-block;

@@ -942,7 +942,7 @@ The pagination component is structured using a combination of buttons and links,
 
 ## 09.0 Building Hero Section Part 1 !!
 
-# HTML Code
+### HTML Code
 
 1. `<!DOCTYPE html>`: Declares the document type and version of HTML being used (HTML5 in this case).
 2. `<html lang="en">`: Defines the root element of the HTML document with the language attribute set to English.
@@ -963,7 +963,7 @@ The pagination component is structured using a combination of buttons and links,
    - `<section>`: Represents a generic section in the document.
      - Another `<div class="container">` containing a heading and a paragraph.
 
-# CSS Code
+### CSS Code
 
 1. `*`: Applies styles to all elements, setting margin and padding to 0, and using the border-box box model.
 2. `body`: Sets the font family for the entire document to Rubik and text color to #343a40 (a shade of grey).
@@ -976,3 +976,97 @@ The pagination component is structured using a combination of buttons and links,
 The CSS also includes a color system and comments indicating a spacing and font size system for consistency across the design.
 
 Note: The color system comments at the end are not currently utilized in the provided code, but they may be placeholders for future use or documentation.
+
+## 10.0 Building Hero Section Part 2 !!
+
+### What is `background-image` , `linear-gradient` & `background-size`??
+
+## background-image
+
+The `background-image` CSS property is used to set one or more background images for an element. It specifies the URL(s) of the image(s) to be used as the background. This property can take multiple comma-separated values, and the images are stacked on top of each other, with the first one being the topmost layer.
+
+### Usage:
+
+```css
+element {
+  background-image: url('image1.jpg'), url('image2.jpg');
+}
+```
+
+## linear-gradient
+
+The `linear-gradient` CSS function creates an image with a linear gradient. It generates a smooth transition between two or more colors along a straight line. This is often used in combination with the `background-image` property to create gradient overlays on background images.
+
+### Usage:
+
+```css
+element {
+  background-image: linear-gradient(to right, #ff0000, #00ff00);
+}
+```
+
+## background-size
+
+The `background-size` CSS property is used to specify the size of a background image within its container. It determines how the image should be scaled or sized relative to the container. The `cover` value is commonly used to ensure the background image covers the entire container while maintaining its aspect ratio.
+
+### Usage:
+
+```css
+element {
+  background-size: cover;
+}
+```
+
+### Header Section Styling
+
+#### HTML Changes
+
+In the HTML structure, a new container class `header-container` has been added to the existing container. This class encapsulates the header content and facilitates styling adjustments.
+
+```html
+<div class="container header-container">
+  <!-- ... existing content ... -->
+</div>
+```
+
+### CSS Changes
+
+#### Header Styling
+
+##### Height and Background:
+
+- Positioned `relative` to center position the child element marked as `absolute`
+
+- The background is a linear gradient overlay on the specified background image (`hero.jpg`). This gradient darkens the image, enhancing text visibility.
+
+##### Background Size:
+
+- `background-size: cover;` ensures the background image covers the entire header, maintaining its aspect ratio.
+
+##### Text Color:
+
+- The text within the header is set to white for improved contrast.
+
+#### Navigation Styling
+
+#### Header Container Styling
+
+##### Container Width:
+
+- The width of the `header-container` is set to a fixed value of 1200px.
+
+##### Positioning and Centering:
+
+- The `header-container` is positioned absolutely within the header.
+
+- The 50% left and top positions, along with `transform: translate(-50%, -50%)`, ensure the container is centered both horizontally and vertically.
+
+#### Header Container Inner Styling
+
+##### Text Alignment:
+
+- A new class `header-container-inner` is introduced to control the width of the text content and align it to the left side of the image.
+
+#### Summary
+
+These changes collectively enhance the visual appeal of the header section. The use of absolute positioning and the transform property ensures responsive centering, while the background styling and overlay contribute to a more aesthetically pleasing design.
