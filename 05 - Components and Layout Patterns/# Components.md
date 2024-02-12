@@ -939,3 +939,40 @@ The pagination component is structured using a combination of buttons and links,
 
 9. **Asymmetry / Experimental:**
    - Introduces irregular layouts for a unique and artistic presentation.
+
+## 09.0 Building Hero Section Part 1 !!
+
+# HTML Code
+
+1. `<!DOCTYPE html>`: Declares the document type and version of HTML being used (HTML5 in this case).
+2. `<html lang="en">`: Defines the root element of the HTML document with the language attribute set to English.
+3. `<head>`: Contains metadata about the HTML document, such as character set and viewport settings.
+
+   - `<meta charset="UTF-8" />`: Specifies the character encoding for the document as UTF-8.
+   - `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`: Sets the viewport properties for responsive design.
+   - Font links for _Rubik_ font with different weights (400, 500, and 700).
+   - `<title>`: Sets the title of the HTML document to "Hero Section".
+   - `<link rel="stylesheet" href="./05-style.css" />`: Links an external CSS file named "05-style.css" to the HTML document.
+
+4. `<body>`: Contains the content of the HTML document.
+   - `<header>`: Represents the header section of the webpage.
+     - `<nav>`: Defines a navigation section within the header.
+       - `<div class="logo">`: Placeholder for the website logo.
+       - `<div class="navigation">`: Placeholder for navigation links.
+     - Another `<div class="container">` containing heading, paragraph, and a call-to-action button.
+   - `<section>`: Represents a generic section in the document.
+     - Another `<div class="container">` containing a heading and a paragraph.
+
+# CSS Code
+
+1. `*`: Applies styles to all elements, setting margin and padding to 0, and using the border-box box model.
+2. `body`: Sets the font family for the entire document to Rubik and text color to #343a40 (a shade of grey).
+3. `.container`: Styles elements with the class "container" to have a fixed width of 1200px and be horizontally centered using auto margins.
+4. `header`: Applies styles to the header element, setting a background color of orange and a height of 100 viewport height units (100vh).
+5. `nav`: Styles the navigation element with a font size of 20px, font weight of 700, flex display, and space-between justification.
+6. `h1`, `p`, `.btn`, `h2`: Sets font sizes and margins for various heading and text elements in the document.
+7. `section`: Styles the section element with padding, margin, and a background color of #f7f7f7.
+
+The CSS also includes a color system and comments indicating a spacing and font size system for consistency across the design.
+
+Note: The color system comments at the end are not currently utilized in the provided code, but they may be placeholders for future use or documentation.
