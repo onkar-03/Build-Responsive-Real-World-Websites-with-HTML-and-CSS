@@ -1123,3 +1123,65 @@ Defines a spacing and font size system using pixel values for consistent design.
 - Adds padding to the top of each section.
 
 These styles collectively create a visually appealing and well-organized web application layout. Adjustments have been made to achieve a balanced color scheme and consistent spacing throughout the design.
+
+## 12.0 Web Application Layout Section Part 2 !!
+
+## HTML Changes
+
+### Menu
+
+- Added buttons within the `<menu>` element for actions like "New," "Replay," "Forward," "Mark Unread," and "Trash."
+
+### Section
+
+- Moved the original email content into a `<section>` element to provide a structured container for emails.
+
+### Main
+
+- Added a `<main>` element with the text "Email."
+
+## CSS Changes
+
+### Menu Styles
+
+- Aligned buttons within the menu using `display: flex;`, `justify-content: center;`, and `align-items: center;`.
+
+- Added a gap of 12px between buttons for spacing.
+
+- Applied padding to the menu for improved visual appeal.
+
+### Button Styles
+
+- Styled buttons with a consistent design, including background color, font size, font weight, and padding.
+
+- Changed the background color of the last button (Trash) to differentiate it.
+
+- Positioned the Trash button to the extreme right using `margin-left: auto;` on the flex container.
+
+### Section Styles
+
+- Added background color and padding to the `<section>` for better visual separation.
+
+- Applied vertical flexbox layout to the section to organize email items in a column.
+
+- Added a gap of 40px between email items for spacing.
+
+- Enabled vertical scrolling within the section using `overflow: scroll;`.
+
+### Email Styles
+
+- Styled individual email items with background color, fixed height, and centered content.
+
+- Applied `flex-shrink: 0;` to prevent email items from shrinking when overflow occurs.
+
+### Main Takeaways
+
+- Improved organization by placing email content within a dedicated `<section>` element.
+
+- Enhanced the visual appearance and functionality of the menu with flexbox and styling.
+
+- Structured the email display using a vertical flexbox layout within the section.
+
+- Enabled scrolling within the section to accommodate a potentially large number of emails.
+
+- Ensured that individual email items maintain their size and do not shrink when overflow occurs.

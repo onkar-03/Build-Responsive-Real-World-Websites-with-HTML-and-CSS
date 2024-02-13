@@ -31,7 +31,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -48,10 +47,56 @@ menu {
   background-color: #7048e8;
   color: #fff;
   grid-column: 2/-1;
+
+  /* Align Buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
+}
+
+button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #5f3dc4;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+button:last-child {
+  background-color: #d6336c;
+
+  /* Setting the Trash button to the extreme right using margin-left:auto; method on flex container */
+  margin-left: auto;
 }
 
 section {
   background-color: #e9ecef;
+  padding: 40px;
+
+  /* Vertical flexbox  for email items*/
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  /* how element that dont fit appear. If we  want to have a scroll bar we use overflow:scroll;*/
+  overflow: scroll;
+}
+
+.email {
+  background-color: #adb5bd;
+  height: 96px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* To disable the shrinking on elements on overflow scroll & give us a scroll bar */
+  flex-shrink: 0;
 }
 
 aside {
