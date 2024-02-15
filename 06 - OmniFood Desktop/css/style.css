@@ -52,7 +52,7 @@ html {
 
 /* Simple styles to the Body */
 body {
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -82,6 +82,11 @@ body {
   gap: 9.6rem;
 }
 
+.hero-img {
+  /* Want the Image to be as large as the parent container hero-img-box */
+  /* Did this so that Both the Grid Columns take same space */
+  width: 100%;
+}
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -116,6 +121,8 @@ body {
 
   /* Always add transition to original state */
   transition: background-color 0.3s;
+
+  font-weight: 600;
 }
 
 .btn--main:link,
@@ -145,9 +152,40 @@ body {
   color: #555;
 }
 
-.hero-img {
-  /* Want the Image to be as large as the parent container hero-img-box */
-  width: 100%;
+.delivered-meals {
+  display: flex;
+  gap: 12px;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: auto;
+  border-radius: 50%;
+
+  /* Overlapping Images */
+  margin-right: -1.6rem;
+
+  /* Adding borer to Images same as the background-color    */
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin-right: 0;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
 }
 
 /* Used a Helper Class to add right margin using this class whenever we want  */
