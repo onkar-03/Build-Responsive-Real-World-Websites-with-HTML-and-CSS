@@ -40,10 +40,31 @@ Default : 1
   box-sizing: border-box;
 }
 
+html {
+  /* Default font-size: 16px */
+  /* font-size: 10px; */
+  /* 10 / 16 = 0.625 = 62.5%; */
+  /* Percentage of User Browser font-size setting */
+  font-size: 62.5%;
+}
+
 /* Simple styles to the Body */
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+/* CSS Grid Container  */
+.hero {
+  /* Using Responsive web Design principles % , vh , vw, rem, max-width wtc.. to ad responsiveness to teh page */
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.hero-img {
+  /* Want the Image to be as large as the parent container hero-img-box */
+  width: 100%;
 }
