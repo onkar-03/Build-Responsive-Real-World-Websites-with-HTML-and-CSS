@@ -14,15 +14,17 @@ Default : 1
 --- 02. Colors : 
 
 - Primary Color : #e67e22
-- Tints :
-- Shades :
+
+- Tints : #fdf2e9
+- Shades :#cf711f
 - Accents :
 - Grays :
 
 --- 03. Images: 
 
 --- 04. Colors  : 
-
+- #333
+- #555
 --- 05. Shadows : 
 
 --- 06. Border-Radius :
@@ -55,6 +57,16 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.section-hero {
+  /* As we include the Startup personality & Calm personality both in out Page, Hence using a light shade of orange */
+
+  /* Used tints and shades to generate this */
+  background-color: #fdf2e9;
+
+  padding: 9.6rem 0;
+}
+
 /* CSS Grid Container  */
 .hero {
   /* Using Responsive web Design principles % , vh , vw, rem, max-width wtc.. to ad responsiveness to teh page */
@@ -62,9 +74,84 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+
+  /* Aligning Items at the Center */
+  align-items: center;
+
+  /* Gap between sections */
+  gap: 9.6rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 32px;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+}
+
+.hero-description {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  /* Inline Block needs to be declared to apply padding */
+  display: inline-block;
+
+  background-color: #e67e22;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+
+  padding: 1.6rem 3.2rem;
+
+  border-radius: 10px;
+
+  /* No cursor:pointer; as for anchor elements by default the cursor changes to pointer */
+
+  /* Adding smooth transition of to buttons from one state to another */
+
+  /* Always add transition to original state */
+  transition: background-color 0.3s;
+}
+
+.btn--main:link,
+.btn--main:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--main:hover,
+.btn--main:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  background-color: #fdf2e9;
+
+  /* To add Border Inside using box-shadow inset property */
+  box-shadow: 0 0 0 3px #fff inset;
+  color: #555;
 }
 
 .hero-img {
   /* Want the Image to be as large as the parent container hero-img-box */
   width: 100%;
+}
+
+/* Used a Helper Class to add right margin using this class whenever we want  */
+/* ! important to specify highest priority */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
