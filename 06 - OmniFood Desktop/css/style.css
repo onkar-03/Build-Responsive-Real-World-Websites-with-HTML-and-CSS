@@ -69,6 +69,38 @@ body {
 /* GENERAL REUSABLE COMPONENTS  */
 /* ********************** */
 
+/* Reusable Centered Container */
+.container {
+  /* Standard Width mostly : 1200px , 1140px */
+  max-width: 120rem;
+
+  /* Adding padding to avoid sticky content on responsive design similar to hero */
+  padding: 0 3.2rem;
+
+  /* Centering Using Margin Trick*/
+  margin: 0 auto;
+}
+
+/* Creating Reusable Grid */
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+/* Creating Reusable Grids with Multiple Columns */
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -215,6 +247,8 @@ header {
 }
 
 /* CSS Grid Container  */
+
+/*  Didn't use the container class to hero section as the width we want for the hero section is 1200px and not 1200px*/
 .hero {
   /* Using Responsive web Design principles % , vh , vw, rem, max-width wtc.. to ad responsiveness to teh page */
   max-width: 130rem;
@@ -222,7 +256,7 @@ header {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
 
-  /* On responsive Layout Content seems sticky so to have some space between edges and content  */
+  /* On responsive Layout Content seems sticky so to have some space between edges & content  */
   padding: 0 3.2rem;
 
   /* Aligning Items at the Center */
@@ -277,4 +311,19 @@ header {
 
 .delivered-text span {
   color: #cf711f;
+}
+
+/* ********************** */
+/* HOW IT WORKS SECTION  */
+/* ********************** */
+
+.section-how {
+  /* Similar to section-hero somewhat */
+  padding: 9.6rem 0;
+}
+
+.section-how div div {
+  font-size: 50px;
+  padding: 100px;
+  background-color: #333;
 }
