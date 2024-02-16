@@ -10,7 +10,14 @@ Default  :400
 Medium  :500
 Semi-bold : 600 
 Bold : 700
+
 - Line-Height : 
+
+- Letter Spacing : 
+
+1.2px
+0.5px
+0.75px
 
 Default : 1
 Small : 1.05
@@ -101,13 +108,37 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-tertiary {
   font-weight: 700;
   color: #555;
-  margin-bottom: 32px;
   line-height: 1.05;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  margin-bottom: 32px;
   letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+
+  /* As the screen decrease multiple line heading is formed hence line-height */
+  line-height: 1.2;
+
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  /* As span inline element */
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -322,8 +353,7 @@ header {
   padding: 9.6rem 0;
 }
 
-.section-how div div {
-  font-size: 50px;
-  padding: 100px;
-  background-color: #333;
+.step-img {
+  /* To set the Image to small size say 50% of the parent container */
+  width: 50%;
 }
