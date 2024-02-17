@@ -147,6 +147,39 @@ header {
 }
 
 /* ********************** */
+/* FEATURES SECTION  */
+/* ********************** */
+
+.section-features {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+/* Display logos side by side & space evenly */
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+
+  /* Setting Images gray using filter property of CSS */
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/* ********************** */
 /* HOW IT WORKS SECTION  */
 /* ********************** */
 
