@@ -170,7 +170,7 @@ body {
   /* Adding smooth transition of to buttons from one state to another */
 
   /* Always add transition to original state */
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 
   font-weight: 600;
 }
@@ -202,8 +202,17 @@ body {
   color: #555;
 }
 
+/* HELPER CLASSES */
 /* Used a Helper Class to add right margin using this class whenever we want  */
 /* ! important to specify highest priority */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center--text {
+  text-align: center;
 }

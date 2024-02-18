@@ -280,6 +280,9 @@ header {
   - If we dont want to use the border-top-L/R on image to curve the borders then we can use overflow 
   - overflow : hidden makes the content overflowing out side the box disappear proving the same curves to the image as the card */
   overflow: hidden;
+
+  /* Animation to translate property used on hover state */
+  transition: all 0.4s;
 }
 
 /*Method 2 : Curve Image Borders 
@@ -290,6 +293,11 @@ header {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 } */
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.05);
+}
 .meal-tag {
   margin-bottom: 1.2rem;
 
@@ -320,6 +328,7 @@ header {
 .tag--paleo {
   background-color: #ffd43b;
 }
+
 .meal-img {
   /* To take the complete width only of the size of the first column */
   width: 100%;
@@ -365,4 +374,58 @@ header {
 /* Lessen the Boldness of strong text */
 strong {
   font-weight: 500;
+}
+
+.list {
+  list-style: none;
+
+  /* Space Vertically between elements*/
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+
+  /* Center teh Icon and Text */
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.link:visited,
+.link:link {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+
+  /* currentColor used to give the same color as the text */
+  border-bottom: 1px solid currentColor;
+
+  padding: 0.2rem;
+
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  display: inline-block;
+  color: #cf711f;
+  text-decoration: none;
+
+  /* Remove border on hover */
+  border-bottom: 1px solid transparent;
+  padding: 0.2rem;
 }
