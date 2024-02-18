@@ -272,9 +272,61 @@ header {
   padding: 9.6rem 0;
 }
 
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+
+  /* Method 1 : Curve Image Borders 
+  - If we dont want to use the border-top-L/R on image to curve the borders then we can use overflow 
+  - overflow : hidden makes the content overflowing out side the box disappear proving the same curves to the image as the card */
+  overflow: hidden;
+}
+
+/*Method 2 : Curve Image Borders 
+- We use the border-top-L/R on image to make them round same as that of the card*/
+
+/* 
+.meal img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+} */
+.meal-tag {
+  margin-bottom: 1.2rem;
+
+  /* Add gaps between meal tags */
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  /* As span hence display inline-block */
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--vegeterian {
+  background-color: #51cf66;
+}
+
+.tag--vegan {
+  background-color: #94d82d;
+}
+
+.tag--paleo {
+  background-color: #ffd43b;
+}
 .meal-img {
   /* To take the complete width only of the size of the first column */
   width: 100%;
+}
+
+.meal-content {
+  padding: 3.6rem 4.8rem 4.8rem 4.8rem;
 }
 
 .meal-title {
@@ -295,4 +347,22 @@ header {
 
 .meal-attribute {
   font-size: 1.8rem;
+
+  /* Aligning icons and attribute */
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  /* To fill in icons try stroke , fill, color and see which one of them have the effect*/
+  color: #e67e22;
+}
+
+/* Lessen the Boldness of strong text */
+strong {
+  font-weight: 500;
 }
