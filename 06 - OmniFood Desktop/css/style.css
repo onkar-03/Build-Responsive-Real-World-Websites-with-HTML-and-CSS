@@ -435,13 +435,21 @@ strong {
 /* ********************** */
 
 .section-testimonials {
-  padding: 9.6rem 0;
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
 }
 
 .testimonials {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4.8rem;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
 }
 
 .testimonial-img {
@@ -459,5 +467,35 @@ strong {
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  /* As the images scale up they tend to go out of bounds of parent container hence to stop the overflow we set the overflow to hidden */
+  overflow: hidden;
+}
+
+.gallery-item img {
+  /* By default images are inline elements, hence we can see a white space after every image. If we want to remove this we need to declare it block element */
+  display: block;
+
+  /* Parent of img is set to have smooth animations */
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  /* Hover Effect on images */
+  transform: scale(1.1);
+}
+
+img {
+  /* We want the images to take 100% of the parent's width which is the figure block */
+  width: 100%;
 }
