@@ -210,6 +210,30 @@ body {
   color: #555;
 }
 
+.list {
+  list-style: none;
+
+  /* Space Vertically between elements*/
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+
+  /* Center teh Icon and Text */
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+
 /* HELPER CLASSES */
 /* Used a Helper Class to add right margin using this class whenever we want  */
 /* ! important to specify highest priority */
