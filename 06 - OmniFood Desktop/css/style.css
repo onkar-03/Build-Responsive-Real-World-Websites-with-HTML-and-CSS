@@ -16,6 +16,7 @@ header {
   height: 9.6rem;
   padding: 0 4.8rem;
 }
+
 .logo {
   height: 2.2rem;
 }
@@ -376,30 +377,6 @@ strong {
   font-weight: 500;
 }
 
-.list {
-  list-style: none;
-
-  /* Space Vertically between elements*/
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-
-  /* Center teh Icon and Text */
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.list-icon {
-  height: 3rem;
-  width: 3rem;
-  color: #e67e22;
-}
-
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
@@ -495,7 +472,54 @@ strong {
   transform: scale(1.1);
 }
 
-img {
+.gallery img {
   /* We want the images to take 100% of the parent's width which is the figure block */
   width: 100%;
+}
+
+/* ********************** */
+/* PRICING SECTION  */
+/* ********************** */
+
+.section-pricing {
+  /* same margin throughout the page */
+  padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.75;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
