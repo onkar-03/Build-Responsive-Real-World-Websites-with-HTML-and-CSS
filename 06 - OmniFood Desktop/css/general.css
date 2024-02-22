@@ -31,7 +31,9 @@ Paragraph : 1.6
 #fae5d3
 #eb984e
 
-- Shades :#cf711f
+- Shades :
+#cf711f
+#45260a
 
 - Accents :
 
@@ -78,6 +80,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem hsla(28, 80%, 52%, 0.5);
 }
 
 /* ********************** */
@@ -172,18 +179,25 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   /* Inline Block needs to be declared to apply padding */
   display: inline-block;
 
-  background-color: #e67e22;
   text-decoration: none;
+  /* background-color: #e67e22; */
   font-size: 2rem;
-  color: #fff;
+  font-weight: 600;
+  /* color: #fff; */
+
+  /* Only for Call to action Button */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   padding: 1.6rem 3.2rem;
-  border-radius: 10px;
+  border-radius: 9px;
 
   /* No cursor:pointer; as for anchor elements by default the cursor changes to pointer */
 
@@ -191,8 +205,6 @@ body {
 
   /* Always add transition to original state */
   transition: all 0.3s;
-
-  font-weight: 600;
 }
 
 .btn--main:link,
@@ -219,6 +231,21 @@ body {
 
   /* To add Border Inside using box-shadow inset property */
   box-shadow: 0 0 0 3px #fff inset;
+  color: #555;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+
+  /* Grid items take the full width of the cell of grid hence to set its size and space we align them */
+  align-self: end;
+
+  padding: 1.2rem 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
   color: #555;
 }
 

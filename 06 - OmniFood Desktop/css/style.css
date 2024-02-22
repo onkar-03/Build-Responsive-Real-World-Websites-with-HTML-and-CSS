@@ -608,7 +608,7 @@ strong {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 
   /* temp */
-  height: 50rem;
+  /* height: 50rem; */
 
   /* Gradient */
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
@@ -648,4 +648,44 @@ strong {
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+
+  /* To give the same font family as the other to the text of the placeholder, as placeholder doesn't inherit same font-family by default*/
+  font-family: inherit;
+
+  /* Same for color */
+  color: inherit;
+
+  border-radius: 9px;
+  border: none;
+  background-color: #fdf2e9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling pseudo elements, using the pseudo elements */
+.cta-form::placeholder {
+  color: #aaa;
+}
+
+.cta-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem hsla(27, 83%, 95%, 0.5);
+}
+.cta-form select {
+}
+
+.cta-form button {
 }
