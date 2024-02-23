@@ -79,11 +79,6 @@ body {
   color: #555;
 }
 
-*:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.4rem hsla(28, 80%, 52%, 0.5);
-}
-
 /* ********************** */
 /* GENERAL REUSABLE COMPONENTS  */
 /* ********************** */
