@@ -4,19 +4,159 @@
 /* Some browsers there might be glitch using rem in media queries hence using em instead */
 
 /* ********************** */
-/* Below 1344px (Smaller Desktops)  */
+/* ^ Below 1344px (Smaller Desktops)  */
 /* ********************** */
 
-/* ~ 1. Breakpoint 1344px screen size : 1350 / 16 = 84 (approx) */
-@media (max-width: 84rem) {
+/* 1. Breakpoint 1344px screen size : 1350 / 16 = 84 (approx) */
+
+@media (max-width: 84em) {
+  /* Changing the width of the hero same as that to the other containers now */
   .hero {
     max-width: 1200rem;
   }
+
+  /* Changing the size opf the heading primary */
   .heading-primary {
     font-size: 4.4rem;
   }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* ********************** */
+/* ^ Below 1200px (Landscape Tablets Screen)  */
+/* ********************** */
+
+/* 2. Breakpoint 1200px : 1200 / 16 = 75(approx)*/
+
+@media (max-width: 75em) {
+  /* We want to change the Size of all the texts & images as they look way big, hence changing the root declaration of 1rem = 10px*/
+
+  html {
+    /* Default font-size: 16px */
+    /* font-size we want 9px; */
+    /* 9 / 16 = 0.65625 = 56.25% */
+    /* Percentage of User Browser font-size setting */
+    font-size: 56.25%;
+  }
+
+  /* Changing the Grid Col & row gaps */
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  /* Changing the size opf the heading secondary */
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  /* Changing the size opf the heading tertiary */
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  /* Aligning again the Header section with the rest of the container for different screen sizes */
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  /* Adjusting the gap between the nav links  */
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  /* Handling the gap of the hero section to match with the rest of the containers alignment*/
+  .hero {
+    gap: 4.8rem;
+  }
+
+  /* Handling the text in the testimonials section of various customers */
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* ********************** */
+/* ^ Below 940px (Landscape Tablets Screen)  */
+/* ********************** */
+
+/* 3. Breakpoint 900px : 940 / 16 = 59(approx)*/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.50 = 50% */
+    font-size: 50%;
+  }
+
+  /* Changing the hero section to one column, adjusting padding & gap of the section again for this breakpoint*/
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  /* Aligning Text now to the center of the hero section  */
+  .hero-text-box {
+    text-align: center;
+  }
+
+  /* Aligning Image now to the center of the hero section  */
+  .hero-img-box {
+    /* As Image is also an inline element hence its affected by the text-align: center;  */
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  /* Formatting all the necessary things of the Hero Section */
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  /* Adjusting the featured Company logos */
+  .logo-img {
+    height: 2.4rem;
+  }
+
+  /* Adjusting the Steps Content of the How it works section */
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  /* Adjusting the padding in the meal cards */
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem;
+  }
+
+  /* Changing the testimonials to just 1 column now */
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  /* Handling the Image display of the gallery section & changing it to a grid of 6 X 2 */
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+}
 /* 
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
