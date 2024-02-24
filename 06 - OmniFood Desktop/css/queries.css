@@ -160,6 +160,7 @@
   /* MOBILE NAVIGATION */
 
   .btn-mobile-nav {
+    /* Show the Menu Icon as block when this media query is active */
     display: block;
   }
 
@@ -176,9 +177,10 @@
     transform: translateX(100%);
     /* & But setting this we still can slide the page and see the hidden section, hence to counter this we add overflow-x:hidden; in boy of general.css */
 
-    /* Adding transition to menu open & close */
+    /* Adding transition to slide in menu */
     transition: all 1.5s ease-in;
 
+    /* Center & format Nav Items */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,6 +214,7 @@
   }
 
   /* Showing Cross Icons when Nav is Open */
+  /* Using a class added to the parent of nav items */
   .nav-open .icon-mobile-nav[name='close-outline'] {
     display: block;
   }
@@ -231,6 +234,144 @@
     font-size: 3rem;
   }
 }
+
+/* ********************** */
+/* Below 704px (Responding to Smaller Screens)  */
+/* ********************** */
+
+/* 3. Breakpoint 704px : 704 / 16 = 44(approx)*/
+
+@media (max-width: 44em) {
+  /* Setting all the 3/4 columns grid to 2X2 Grid */
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* centering & spanning the Content */
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  /* adjusting the Heading Secondary gaps */
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  /* Adjusting the Pricing Plans Cards*/
+  .pricing-plan {
+    width: 100%;
+  }
+
+  /* Grid Layout change to 6 Cols */
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  /* Spanning them 3 columns each */
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  /* Having the Navigation Sections in row 1 & span 2 columns each*/
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    gap: 3.2rem;
+  }
+}
+
+/* ********************** */
+/* Below 550px (Responding to Mobile Phones)  */
+/* ********************** */
+
+/* 3. Breakpoint 550px : 550 / 16 = 34(approx)*/
+
+@media (max-width: 34em) {
+  /* All Grids to One Column */
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  /* Handling Gaps of hero, grid & Section-hero */
+  .grid {
+    gap: 4.8rem;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  /* Handling the Buttons of the Hero Section */
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  /* Adjusting the Food Image of Hero Section */
+  .hero-img {
+    width: 80%;
+  }
+
+  /* Adjusting Featured Company Logos */
+  .logos img {
+    height: 1.2rem;
+  }
+
+  /* Adjusting  the Images at the Top then the Content in teh Bottom of How it Works Section */
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  /* Moving the Images closer to their content */
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  /* Testimonials Section making it to 1 column Grid */
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  /* Gallery Images shifted to 4X3 columns */
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  /* Handling the Call to Action Section */
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  /* ! As the Image Section had no Content it has no height hence it disappears when grid column set to 1, initially Image was visible as the Contents were side by side & Image took the Same Height as its Neighboring Content height*/
+
+  /* Hence to make the image visible we give it a height */
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+}
+
 /* 
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
