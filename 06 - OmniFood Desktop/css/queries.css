@@ -156,6 +156,80 @@
   .btn--form {
     margin-top: 1.2rem;
   }
+
+  /* MOBILE NAVIGATION */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: hsla(0, 0%, 100%, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+
+    /* Sliding Menu Setup */
+    transform: translateX(100%);
+    /* & But setting this we still can slide the page and see the hidden section, hence to counter this we add overflow-x:hidden; in boy of general.css */
+
+    /* Adding transition to menu open & close */
+    transition: all 1.5s ease-in;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Hide Nav */
+    /* Allows no transition at all when display:none; */
+    /* display: none; */
+
+    /* ^ Creating a CSS only open and Close system without Js */
+
+    /* To Hide Elements without display:none; we need to follow some steps  */
+
+    /* 1. Hide Element visually */
+    opacity: 0;
+
+    /* 2. Make it unaccessible to mouse & keyboard */
+    pointer-events: none;
+
+    /* 3. Hide it from Screen Readers */
+    visibility: hidden;
+  }
+
+  /* Making it visible on opening Menu*/
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+
+    /* Sliding the Menu In */
+    transform: translate(0);
+  }
+
+  /* Showing Cross Icons when Nav is Open */
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  /* Hiding the Menu Icon */
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
 }
 /* 
 - Font sizes (px)
