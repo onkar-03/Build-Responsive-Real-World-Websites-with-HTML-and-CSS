@@ -72,6 +72,9 @@ html {
 
   /* Sliding Menu Hide */
   overflow-x: hidden;
+
+  /* Add smooth scrolling throughout the page */
+  scroll-behavior: smooth;
 }
 
 /* Simple styles to the Body */
