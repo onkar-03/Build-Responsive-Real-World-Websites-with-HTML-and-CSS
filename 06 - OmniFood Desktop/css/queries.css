@@ -178,7 +178,7 @@
     /* & But setting this we still can slide the page and see the hidden section, hence to counter this we add overflow-x:hidden; in boy of general.css */
 
     /* Adding transition to slide in menu */
-    transition: all 1.5s ease-in;
+    transition: all 0.5s ease-out;
 
     /* Center & format Nav Items */
     display: flex;
