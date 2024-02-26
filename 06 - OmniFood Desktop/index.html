@@ -127,7 +127,20 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img src="img/hero.png" alt="Hero Img" class="hero-img" />
+            <picture>
+              <!-- <picture> Used to load the picture format supported by browser to load on the webpage -->
+
+              <!-- Providing all possible image formats -->
+              <source srcset="./img/hero.webp" type="img/webp" />
+              <source srcset="./img/hero.png" type="img/png" />
+
+              <!-- Defining the default format we want, incase this does not load then one fo the 2 available formats replace the src of <img> -->
+              <img
+                src="img/hero.png"
+                alt="Woman having food"
+                class="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
